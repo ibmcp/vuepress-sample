@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /assets/img/logo2/facebook_cover_photo_1.png
+heroImage: /cloudaz/assets/img/logo2/facebook_cover_photo_1.png
 heroText: Hybrid & Multi Cloud world
 tagline: Setup, Containerize, Manage Cloud platform !
 actionText: Get Started →
-actionLink: /setup/
+actionLink: /cloudaz/setup/
 features:
 - title: Setup
   details: Cloud platform을 설치하고 구성.
