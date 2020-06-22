@@ -58,7 +58,11 @@ Sub navigator 수정 방법입니다.
 
 #### How to comment and reply block
 각 글의 맨 하단에 댓글 영역 추가 방법입니다.  
-1. add '<disqus/>' at the bottom of page
+1. add below 2 lines at the bottom of page
+```
+---
+<disqus/>
+```
 2. 운영자라면 log in disqus.com with happycloudpak@gmail.com
 
 #### Local에서 preview  
