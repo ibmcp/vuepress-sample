@@ -1,1 +1,5 @@
 # Manage cloud platform
+
+
+---
+<disqus/>
