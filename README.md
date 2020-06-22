@@ -1,5 +1,5 @@
 # Overview 
-> 본 프로젝트는 IBM HCIS팀의 정보공유 사이트인 [ibm-hcis](http://ibm-hcis.github.io/cloudaz)의 글 관리를 위해 운영됩니다.   
+> 본 프로젝트는 IBM HCIS팀의 정보공유 사이트인 [ibm-hcis](http://ibm-hcis.github.io/)의 글 관리를 위해 운영됩니다.   
 
 ## How to write
 node.js의 vuepress라는 모듈을 이용하여 글을 등록합니다.  
@@ -120,5 +120,5 @@ $ git push origin dev
 ### Step04 : Confirm changes  
 
 git action 수행 시간이 있으므로 약 5분 정도 후에  
-[ibm-hcis](http://ibm-hcis.github.io/cloudaz)에 접근하여 변경사항이 반영되었는지 확인합니다.  
+[ibm-hcis](http://ibm-hcis.github.io)에 접근하여 변경사항이 반영되었는지 확인합니다.  
    

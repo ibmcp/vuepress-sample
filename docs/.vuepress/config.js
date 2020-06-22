@@ -1,4 +1,3 @@
-let BASE_DIR = "/cloudaz";
 
 module.exports = {
 	base: "/",
@@ -14,7 +13,7 @@ module.exports = {
 			{
 				rel: "apple-touch-icon",
 				sizes: "180x180",
-				href: BASE_DIR+"/assets/favicons/apple-touch-icon.png"
+				href: "/assets/favicons/apple-touch-icon.png"
 			}
 		],
 		[
@@ -23,7 +22,7 @@ module.exports = {
 				rel: "icon",
 				type: "image/png",
 				sizes: "32x32",
-				href: BASE_DIR+"/assets/favicons/favicon-32x32.png"
+				href: "/assets/favicons/favicon-32x32.png"
 			}
 		],
 		[
@@ -32,27 +31,27 @@ module.exports = {
 				rel: "icon",
 				type: "image/png",
 				sizes: "16x16",
-				href: BASE_DIR+"/assets/favicons/favicon-16x16.png"
+				href: "/assets/favicons/favicon-16x16.png"
 			}
 		],
 		[
 			"link",
 			{
 				rel: "manifest",
-				href: BASE_DIR+"/assets/favicons/site.webmanifest"
+				href: "/assets/favicons/site.webmanifest"
 			}
 		]
 	],
 	themeConfig: {
-		logo: BASE_DIR+"/assets/img/logo1/facebook_cover_photo_1.png",
+		logo: "/assets/img/logo1/facebook_cover_photo_1.png",
 		nav: [
-			{ text: "Home", link: BASE_DIR+"/" },
-			{ text: "Setup", link: BASE_DIR+"/setup/overview" },
-			{ text: "Containerize", link: BASE_DIR+"/containerize/overview" },
-			{ text: "Manage", link: BASE_DIR+"/manage/overview" },
+			{ text: "Home", link: "/" },
+			{ text: "Setup", link: "/setup/overview" },
+			{ text: "Containerize", link: "/containerize/overview" },
+			{ text: "Manage", link: "/manage/overview" },
 		],
 		sidebar: {
-			BASE_DIR+"/setup/": [
+			"/setup/": [
 				{
 					title: "Cloud platform setup",
 					//path: "/devops/", // optional, which should be a absolute path.
@@ -61,26 +60,26 @@ module.exports = {
 					children: [
 						{
 							title: "Overview",
-							path: BASE_DIR+"/setup/overview"
+							path: "/setup/overview"
 						},
 						// {
 						// 	title: "Patterns",
-						// 	path: BASE_DIR+"/setup/patterns",
+						// 	path: "/setup/patterns",
 						// 	children: [
 						// 		{
 						// 			title: "pattern1",
-						// 			path: BASE_DIR+"/setup/patterns/pattern1"
+						// 			path: "/setup/patterns/pattern1"
 						// 		},
 						// 		{
 						// 			title: "pattern2",
-						// 			path: BASE_DIR+"/setup/patterns/pattern2"
+						// 			path: "/setup/patterns/pattern2"
 						// 		}
 						// 	]
 						// }
 					]
 				}
 			],
-			BASE_DIR+"/containerize/": [
+			"/containerize/": [
 				{
 					title: "Containerize applications",
 					// path: "/devops/", // optional, which should be a absolute path.
@@ -89,33 +88,33 @@ module.exports = {
 					children: [
 						{
 							title: "Overview",
-							path: BASE_DIR+"/containerize/overview"
+							path: "/containerize/overview"
 						},
 						// {
 						// 	title: "Transformation patterns",
-						// 	path: BASE_DIR+"/containerize/trans-patterns",
+						// 	path: "/containerize/trans-patterns",
 						// 	children: [
 						// 		{
 						// 			title: "pattern1",
-						// 			path: BASE_DIR+"/containerize/trans-patterns/pattern1"
+						// 			path: "/containerize/trans-patterns/pattern1"
 						// 		},
 						// 		{
 						// 			title: "pattern2",
-						// 			path: BASE_DIR+"/containerize/trans-patterns/pattern2"
+						// 			path: "/containerize/trans-patterns/pattern2"
 						// 		}
 						// 	]
 						// },
 						// {
 						// 	title: "MSA",
-						// 	path: BASE_DIR+"/containerize/msa",
+						// 	path: "/containerize/msa",
 						// 	children: [
 						// 		{
 						// 			title: "overview",
-						// 			path: BASE_DIR+"/containerize/msa/overview"
+						// 			path: "/containerize/msa/overview"
 						// 		},
 						// 		{
 						// 			title: "pattern1",
-						// 			path: BASE_DIR+"/containerize/msa/pattern1"
+						// 			path: "/containerize/msa/pattern1"
 						// 		}
 						// 	]
 						// }
@@ -123,40 +122,40 @@ module.exports = {
 				}
 			],	
 
-			BASE_DIR+"/manage/": [
+			"/manage/": [
 				{
 					title: "Manage cloud platform",
 					sidebarDepth: 2, // optional, defaults to 1
 					children: [
 						{
 							title: "Overview",
-							path: BASE_DIR+"/manage/overview"
+							path: "/manage/overview"
 						},
 						// {
 						// 	title: "Monitoring",
-						// 	path: BASE_DIR+"/manage/monitoring",
+						// 	path: "/manage/monitoring",
 						// 	children: [
 						// 		{
 						// 			title: "logging",
-						// 			path: BASE_DIR+"/manage/monitoring/logging"
+						// 			path: "/manage/monitoring/logging"
 						// 		},
 						// 		{
 						// 			title: "Metric",
-						// 			path: BASE_DIR+"/manage/monitoring/logging"
+						// 			path: "/manage/monitoring/logging"
 						// 		}
 						// 	]
 						// },
 						// {
 						// 	title: "Best practices",
-						// 	path: BASE_DIR+"/manage/bp",
+						// 	path: "/manage/bp",
 						// 	children: [
 						// 		{
 						// 			title: "Best practice1",
-						// 			path: BASE_DIR+"/manage/bp/bp1"
+						// 			path: "/manage/bp/bp1"
 						// 		},
 						// 		{
 						// 			title: "Best practice2",
-						// 			path: BASE_DIR+"/manage/bp/bp2"
+						// 			path: "/manage/bp/bp2"
 						// 		}
 						// 	]
 						// }

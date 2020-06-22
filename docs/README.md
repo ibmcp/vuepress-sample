@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /cloudaz/assets/img/logo2/facebook_cover_photo_1.png
+heroImage: /assets/img/logo2/facebook_cover_photo_1.png
 heroText: Hybrid & Multi Cloud world
 tagline: Setup, Containerize, Manage Cloud platform !
 actionText: Get Started →
