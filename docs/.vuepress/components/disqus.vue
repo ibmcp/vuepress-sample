@@ -11,7 +11,7 @@ export default {
         (function() {
             var d = window.document,
                 s = d.createElement("script");
-            s.src = "https://kubepia.disqus.com/embed.js";
+            s.src = "https://happycloudpak.disqus.com/embed.js";
             s.setAttribute("data-timestamp", +new Date());
             (d.head || d.body).appendChild(s);
         })();

@@ -56,6 +56,10 @@ Sub navigator 수정 방법입니다.
 5. children items : title & path in array under children
    ![](./img/2020-03-06-16-29-44.png)
 
+#### How to comment and reply block
+각 글의 맨 하단에 댓글 영역 추가 방법입니다.  
+1. add '<disqus/>' at the bottom of page
+2. 운영자라면 log in disqus.com with happycloudpak@gmail.com
 
 #### Local에서 preview  
 수정 내용을 upload하기 전에 Local에서 미리 보기할 수 있습니다.  
