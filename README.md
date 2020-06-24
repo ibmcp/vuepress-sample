@@ -4,22 +4,22 @@
 ## How to write
 node.js의 vuepress라는 모듈을 이용하여 글을 등록합니다.  
 아래와 같은 순서로 글이 publishing됩니다.  
-- [git clone](https://github.com/ibm-hcis/cloudaz#step01--clone)  
-- [글 작성/수정](https://github.com/ibm-hcis/cloudaz#step02--writemodify)  
-- [Commit, Pulling, Merge and Push](https://github.com/ibm-hcis/cloudaz#step03--commit-pulling-merge-and-push)
-- [HTML생성](https://github.com/ibm-hcis/cloudaz/actions)  
+- [git clone](https://github.com/ibm-hcis/ibm-hcis.github.io#step01--clone)  
+- [글 작성/수정](https://github.com/ibm-hcis/ibm-hcis.github.io#step02--writemodify)  
+- [Commit, Pulling, Merge and Push](https://github.com/ibm-hcis/ibm-hcis.github.io#step03--commit-pulling-merge-and-push)
+- [HTML생성](https://github.com/ibm-hcis/ibm-hcis.github.io/actions)  
   미리 작성된 git action이 자동 수행됨   
   - vuepress가 소스를 읽어 html들 생성  
   - 생성된 html들을 master branch로 overwrite  
-- [Confirm changes](https://github.com/ibm-hcis/cloudaz#step04--confirm-changes)
+- [Confirm changes](https://github.com/ibm-hcis/ibm-hcis.github.io#step04--confirm-changes)
 
 ---
 
 ### Step01 : Clone
 1. clone this repository with branch 'dev'
    ```sh
-   git clone -o origin https://github.com/ibm-hcis/cloudaz.git
-   cd cloudaz
+   git clone -o origin https://github.com/ibm-hcis/ibm-hcis.github.io.git
+   cd ibm-hcis.github.io
    ```
 
 ---
@@ -69,7 +69,7 @@ Sub navigator 수정 방법입니다.
 수정 내용을 upload하기 전에 Local에서 미리 보기할 수 있습니다.  
 ```sh
 $ cd <git root> 
-예) cd ~/cloudaz
+예) cd ~/ibm-hcis.github.io
 
 최초 한번은 관련 모듈을 설치해야 합니다.  
 $ npm install 
